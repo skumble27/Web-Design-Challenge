@@ -1,61 +1,16 @@
-img {
-  max-width: 100%;
-}
-
-#imgsel{
-  border: lightseagreen 2px solid;
-}
-
-
-
-h1{
-  font-size: 40px;
-  font-weight: bold;
-  text-align:left;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: lightseagreen;
-}
-
-h2{
-  font-size: 22px;
-  font-weight: bold;
-  text-align:left;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: lightseagreen;
-}
-
-h3{
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: lightseagreen;
-
-}
-
-p{
-  color: #6D8092;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px; 
-  }
-
-body {
-  width: 100%;
-  min-height:100%;
-  background-color: lightgray;
-}
-
 .column {
   width: 100%;
+  /* border: black 1px solid; */
+  /* Font color */
+  /* color:blue;  */
+}
 
-} 
-
-.latitude_button{
+.latbutton{
   background-color: white;
   z-index:2;
 }
 
-.latitude_button a{
+.latbutton a{
   width: 110px;
   background: lightseagreen;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -68,23 +23,56 @@ body {
   margin: 0px 0px 0px 40px;
 }
 
-.second_half_top{
+.panelcol{
   background-color: white;
   z-index:2;
 }
 
-.body_format{
-  background-color: white;
-  z-index:1;
+.navbar{
+  position: absolute;
+  right: 30px;
+}
+
+.navbar a{
+background-color:white;
+}
+
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: lightseagreen;
+  font-size: 24px;
+  font-weight: bold;
+  text-align:left;
+}
+
+img {
+  max-width: 100%;
+}
+
+#imgsel{
+  border: lightseagreen 2px solid;
 }
 
 
+p{
+  color: gray;
+  text-align:left;
+}
 
-.box {
-  margin-top: 40px; 
-  margin-bottom: 62px; 
-  padding: 10px 20px 15px; 
-  color:black;
-  background-color: white; 
+/*This ensures the dropdown appear in front*/
+.dropdownfront{
+  background-color: white;
+  z-index:1;
 
+}
+
+body {
+  width: 100%;
+  min-height:100%;
+  background-color: lightgray;
+}
+.tableformat{
+  background-color: white;
+  text-align: center;
+  z-index: 1;
 }
