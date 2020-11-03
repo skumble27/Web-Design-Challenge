@@ -55,18 +55,35 @@
 
       <!--Creating the Main Body of the page-->
       <div class="container">
-        <br>
+        <br><br>
         <div class='row'>
           <!-- Left side of the panel -->
-          <div class="col-lg-11 bodyformat">
+          <div class="col-lg-8 bodyformat">
             
             <h1>Summary: Latitude vs X</h1><hr>
-            <img style="float: left;" src="Assets/images/Fig1.png" alt="Latitude vs Temperature" height="400" width="400">
+            <img style="float: left;" src="Assets/images/Fig1.png" alt="Latitude vs Temperature" width="280">
             <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
             <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs, latitude. Factor we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
 
           </div>
           <!--Right side of the panel-->
+          <div class="col-lg-4 bodyformat">
+            <h1>Visualisations</h1><hr>
+            <div class="row">
+              <div class="col-6 bodyformat">
+                <a href="maximum_temp.html"><img class="image" src="Assets/images/Fig1.png" alt="Latitude vs Maximum Temperature"></a>
+              </div>
+              <div class="col-6 bodyformat">
+                <a href="humidity.html"><img class="image" src="Assets/images/Fig2.png" alt='Latitude vs Humidity'></a>
+              </div>
+              <div class="col-6 bodyformat">
+                <a href="cloudiness.html"><img class="image" src="Assets/images/Fig3.png" alt="Latitude vs Cloudiness"></a>
+              </div>
+              <div class="col-6 bodyformat">
+                <a href="wind_speed.html"><img class="image" src = "Assets/images/Fig4.png" alt="Latitude vs Wind Speed"></a>                
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>

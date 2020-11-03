@@ -45,13 +45,27 @@ img{
   max-width: 100%;
 }
 
+.image:hover{
+  border: 3px solid lightseagreen;
+}
+
 h1{
   color: lightseagreen;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder;
+  font-size: 23px;
 }
 
 p{
   color:darkgray;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+#imgsel{
+  border: lightseagreen 2px solid;
 }
