@@ -1,6 +1,7 @@
 .mainpage{
   background-color: white;
   z-index: 2;
+
 }
 
 .atext{
@@ -21,11 +22,36 @@
 
 }
 
-.navigationbar{
-  z-index: 2;
-  text-align: right;
-  background-color:white;
+.column{
+  width: 100%;
 }
-.linkalign{
+
+.rightcolumn{
   text-align: right;
+  background-color: black;
+  color: white;
+}
+
+body{
+  background-color:lightgray;
+}
+
+.bodyformat{
+  z-index: 1;
+  background-color: white;
+}
+
+img{
+  max-width: 100%;
+}
+
+h1{
+  color: lightseagreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+p{
+  color:darkgray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
