@@ -1,0 +1,31 @@
+.mainpage{
+  background-color: white;
+  z-index: 2;
+}
+
+.atext{
+  width: 110px;
+  background: lightseagreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  display: block;
+  padding: 14px;
+  margin: 0px 0px 0px 40px;
+}
+.atext:hover{
+  background-color: purple;
+  color: wheat;
+
+}
+
+.navigationbar{
+  z-index: 2;
+  text-align: right;
+  background-color:white;
+}
+.linkalign{
+  text-align: right;
+}
