@@ -104,6 +104,16 @@ h3{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-div:hover + h4{
+h4{
+  font-size: 10px;
+  text-align: center;
+  display: none;
+  padding: 10px;
+  background-color: lightseagreen;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:hover + h4{
   display: block;
 }
