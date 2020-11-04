@@ -91,3 +91,19 @@ td:hover{
   background-color: plum;
   color: wheat;
 }
+
+table{
+  height: auto;
+  width: auto;
+}
+
+h3{
+  color: lightseagreen;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div:hover + h4{
+  display: block;
+}
