@@ -86,3 +86,8 @@ thead{
 td{
   background-color: white;
 }
+
+td:hover{
+  background-color: plum;
+  color: wheat;
+}
