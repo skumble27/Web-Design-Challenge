@@ -77,26 +77,12 @@ img {
   font-weight: bolder;
 }
 
-
-#cities {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-#cities td, #cities th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#cities tr:nth-child(even){background-color: #f2f2f2;}
-
-#cities tr:hover {background-color: #ddd;}
-
-#cities th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color:lightseagreen;
+thead{
+  background-color: lightseagreen;
+  padding: 0mm;
   color: white;
+}
+
+td{
+  background-color: white;
 }
