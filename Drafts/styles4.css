@@ -1,0 +1,29 @@
+.latitude{
+  background-color: white;
+  z-index:2;
+}
+
+/*This will specifically cover the latitude button with the green background, else the entire column
+will be gree */
+.latitude_text{
+  width: 110px;
+  background: lightseagreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 14px;
+  margin: 0px 0px 0px 40px;
+}
+
+.rightcol{
+  width: 100%;
+  background-color: white;
+  z-index:2;
+}
+
+body{
+  background-color: lightgray;
+}
