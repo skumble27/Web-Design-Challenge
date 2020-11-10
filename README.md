@@ -6,7 +6,7 @@ Recent data analytics were conducted to determine if there was a relationship be
 
 [Weather Data Analyses](https://skumble27.github.io/Web-Design-Challenge/WebVisualizations/index.html)
 
-Bonus
+**Bonus**
 Further Data Visualisations were undertaken by presenting the data analytics that was conducted at Pymaceuticals. The outcome for this analyses can be viewed through the link provided below:
 
 [Pymaceuticals](https://skumble27.github.io/Web-Design-Challenge/WebVisualizations/bonus.html)
